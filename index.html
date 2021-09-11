@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootsrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a class="header-logo" href="index.html"><img class="logo-img" src="img/logo.jpg" alt="rasm joyi" width="50" height="50">DT kompany</a>
+            <ul class="header-pages">
+                <li class="header-list"><a class="header-link" href="#">home</a></li>
+                <li class="header-list"><a class="header-link" href="#">about</a></li>
+                <li class="header-list"><a class="header-link" href="#">contact</a></li>
+                <li class="header-list"><a class="header-link" href="#">our team</a></li>
+                <li class="header-list"><a class="header-link" href="#">sigin up <span class="active"></span></a></li>
+            </ul>
+        </div>
+        <form class="form row g-5" action="about.html">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Ismingiz</label>
+              <input type="text" class="form-control input-js" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Familyangiz</label>
+              <input type="text" class="form-control input-js-too" id="validationDefault02" value="" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Tug`ilgan vaqtingiz</label>
+              <div class="input-group">
+                <!-- <span class="input-group-text" id="inputGroupPrepend2">@</span> -->
+                <input type="date" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault03" class="form-label">Sohangiz</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault04" class="form-label">Stajingiz</label>
+              <input type="number" class="form-control" id="validationDefault04" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault05" class="form-label">Qilgan ishlaringiz</label>
+              <input type="file" class="form-control" id="validationDefault05">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  So`rovnoma bilan tanishdingzmi
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+    </div>
+      <script src="js/index.js"></script>
+</body>
+</html>
